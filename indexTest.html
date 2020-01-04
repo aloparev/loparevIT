@@ -6,13 +6,32 @@
         height: 100%;
         background-color: #191919;
         color: #e6d8d7;
-        font-size: 4vmin;
         font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
     }
 
     a {
         color: #e6d8d7;
         text-decoration: none;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-rows: repeat(10, 10fr);
+        background: white;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: black;
+        text-align: center;
+        font-size: 1vmin;
+    }
+
+    .centeringHV {
+        display: inline-block;
     }
 
     .absoluteCenteringHV {
@@ -21,7 +40,9 @@
         top: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+        font-size: 4vmin;
     }
+
 </style>
 
 <head>
@@ -38,6 +59,10 @@
         Informatiker
     <p>
 </div>
-
+<div class="footer">
+    <div class="centeringHV">
+        <p>&copy; 2020 Andrej Loparev</p>
+    </div>
+</div>
 </body>
 </html>

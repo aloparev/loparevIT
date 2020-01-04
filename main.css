@@ -3,16 +3,13 @@
     overflow: hidden;
     background-color: #191919;
     color: #e6d8d7;
+    font-size: 4vmin;
 }
 
 a {
   position: absolute;
-  /*top: 50%;*/
   left: 0;
   right: 0;
-  /*margin-top: -9px;*/
-  /*margin-top: 0px;*/
-  font-size: 2vw;
   color: #e6d8d7;
   text-decoration: none;
 }
@@ -28,7 +25,5 @@ a {
     top: 45%;
     left: 0;
     right: 0;
-    /*margin-top: -9px;*/
     font-family: "Arial", Helvetica, sans-serif;
-    font-size: 2vw;
 }
